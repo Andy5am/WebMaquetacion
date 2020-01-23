@@ -78,8 +78,9 @@ html, body {
 .arrow{
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu9XLMYeQeneisvFskVyBzm1du51_uEZbWEwwG2EnpT78JtCHd3w&s);
 	background-size: cover;
+	border:none;
 	height: 4rem;
-	padding-right: 6rem;
+	padding-right: 7rem;
 }
 
 .planoContent{
@@ -304,12 +305,12 @@ html, body {
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    height: 322px;
+    height: 250px;
     margin-bottom: 4rem;
     margin-right: 4rem;
     margin-left: 4rem;
     overflow: hidden;
-    width: 40rem;
+    width: 35rem;
 }
 .book__image {
     background-position: center;;
