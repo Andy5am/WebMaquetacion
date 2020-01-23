@@ -70,9 +70,16 @@ html, body {
 	color: #008B8B;
 	display: flex;
 	font-size: 4rem;
-	padding-right: 9rem;
+	padding-right: 4rem;
 	padding-left: 4rem;
 
+}
+
+.arrow{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu9XLMYeQeneisvFskVyBzm1du51_uEZbWEwwG2EnpT78JtCHd3w&s);
+	background-size: cover;
+	height: 4rem;
+	padding-right: 6rem;
 }
 
 .planoContent{
@@ -90,6 +97,7 @@ html, body {
 	justify-content: center;
 	box-sizing: border-box;
 	padding-bottom: 19rem;
+	padding-left: 5rem;
 }
 
 .content{
@@ -165,10 +173,11 @@ html, body {
 }
 
 .booksMenu{
-	background-color: green;
+	background-color: #E1ECEF;
 	display: flex;
 	flex-direction: column;
 	flex-grow: 10;
+	padding-left: 8rem;
 }
 
 .opciones{
@@ -194,6 +203,24 @@ html, body {
 	font-size: 5rem;
 	padding-top: 2rem;
 	padding-left: 2rem;
+}
+
+.edit{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Edit_icon_%28the_Noun_Project_30184%29.svg/1024px-Edit_icon_%28the_Noun_Project_30184%29.svg.png);
+	background-size: cover;
+	border: none;
+	height: 6rem;
+	width: 6rem;
+	margin-left: 3rem;
+}
+
+.redTrash{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAxafATy_D8disIHxszE6U1hvaLX76Yjo4z2iZ7FW9jRVRXRZbA&s);
+	background-size: cover;
+	border: none;
+	height: 6rem;
+	width: 6rem;
+	margin-left: 2rem;
 }
 
 .buttons{
@@ -252,12 +279,24 @@ html, body {
 	font-size: 2rem;
 }
 
+.trash{
+	background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/699374-icon-27-trash-can-512.png);
+	background-size: cover;
+	border:none;
+	height: 3rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	width: 3rem;
+
+}
+
 .books{
 	align-items: center;
 	background-color: #E1ECEF;
 	display: flex;
 	flex-direction: row;
 	flex-grow: 36;
+	padding-bottom: 19rem;
 }
 
 .book {
@@ -267,8 +306,8 @@ html, body {
     flex-direction: column;
     height: 322px;
     margin-bottom: 4rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     overflow: hidden;
     width: 40rem;
 }
@@ -298,12 +337,15 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 2rem;
+	padding-right: 4rem;
     right: 0;
     width: 12rem;
 }
 
 .book__more{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIOHNsOBJJ6IWaB2MlAg51jf2dhsHm-zjMNwWCtzztb_lFT2ardg&s);
+	background-size: cover;
+	border:none;
 	height: 4rem;
 	width: 4rem;
 }
